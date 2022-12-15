@@ -1,0 +1,114 @@
+.button {
+    background-color: rgb(28, 131, 131);
+    color: white;
+    width: 75px;
+    height:75px;
+    border-radius: 8px;
+    border: 2px solid rgb(34, 104, 104);
+    margin: 5px 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+input[value="false"]{
+    border: 2px solid rgb(28, 131, 131);
+    background-color: white;
+    color:rgb(28, 131, 131);
+    transition: 0.3s;
+    background-color: #3d3d3d;
+    opacity: 0.4;
+}
+
+.slide {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 70%;
+    background: #d3d3d3;
+    border-radius: 8px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border: 2px solid grey;
+}
+
+.slide:hover {
+    opacity: 1;
+}
+
+.slide::-webkit-slider-thumb {
+    width: 25px;
+    height: 25px;
+    background: rgb(28, 131, 131);
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slide::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: rgb(28, 131, 131);
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.kader {
+    /* border: 2px solid black; */
+    width: 400px;
+    border-radius: 5px;
+    /* background-color:#b8b295; */
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+}
+header {
+    text-align: center;
+    background-color: rgb(28, 131, 131);
+    padding: 10px 10px 0px 10px;
+    color: white;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    min-height: 50px;
+    align-content: flex-end;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(28, 131, 131);
+    padding: 1px;
+    color: white;
+    font-size: 20px;
+    border-top: 2px solid black;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+body {
+    background-color: #d0c485;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+#box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 60%;
+    width: 20%;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-left: -200px;
+    margin-top: -300px;
+    visibility: hidden;
+    background: darkgrey;
+    overflow: auto;
+}
